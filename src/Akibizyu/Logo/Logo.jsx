@@ -1,8 +1,7 @@
 import './Logo.scss';
-import Data from '../../Data/Data';
+import { logotext, logoimg } from '../../Data/Data';
 
 const Logo = () => {
-  const { logotext, logoimg } = Data();
   return (
     <>
       <section className="logo">
