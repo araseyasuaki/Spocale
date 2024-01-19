@@ -1,0 +1,90 @@
+@media (width <= 960px){
+    .ugoki{
+        ul{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            list-style-type: none;
+            li{
+                position: absolute;
+                transform: translateX(-50%) translateY(-50%);
+                img{
+                    width: 100%;
+                }
+            }
+            li:nth-child(1){
+                width: 45vw;
+                // min-width: 280px;
+                top: 35%;
+                left: 34%;
+            }
+            li:nth-child(2){
+                width: 13vw;
+                // min-width: 180px;
+                top: 43%;
+                left: 72%;
+                z-index: 10;
+            }
+            li:nth-child(3){
+                width: 15vw;
+                bottom: -5%;
+                left: 15%;
+                z-index: 20;
+            }
+            li:nth-child(4){
+                width: 21vw;
+                bottom: -160px;
+                right: 7%;
+                transform: rotate(9deg);
+                z-index: -10;
+            }
+        }
+    }
+}
+@media (width >= 961px){
+    .ugoki{
+        ul{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            list-style-type: none;
+            li{
+                position: absolute;
+                transform: translateX(-50%) translateY(-50%);
+                img{
+                    width: 100%;
+                }
+            }
+            li:nth-child(1){
+                width: 18vw;
+                min-width: 280px;
+                top: 35%;
+                left: 34%;
+            }
+            li:nth-child(2){
+                width: 13vw;
+                min-width: 180px;
+                top: 43%;
+                left: 72%;
+                z-index: 10;
+            }
+            li:nth-child(3){
+                width: 15vw;
+                bottom: -5%;
+                left: 15%;
+                z-index: 20;
+            }
+            li:nth-child(4){
+                width: 21vw;
+                bottom: -160px;
+                right: 7%;
+                transform: rotate(9deg);
+                z-index: -10;
+            }
+        }
+    }
+}

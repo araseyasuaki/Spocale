@@ -1,0 +1,51 @@
+@media (width <= 960px){
+}
+@media (width >= 961px){
+    .dounyuutext{
+        background-color: #bf0000;
+        margin-top: -1px;
+        padding: 120px 0 120px 0;
+        ul{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+            li{
+                line-height: 50px;
+                font-size: 1.7rem;
+                font-weight: bold;
+                color: #fff;
+            }
+            li:nth-child(6){
+                padding-right: 136.5px;
+            }
+            li:nth-child(7){
+                position: absolute;
+                background: linear-gradient(to left, #f4ff5a, #ffd500);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                bottom: 50px;
+                left: 50%;
+                transform: translateX(-54.3Px);
+            }
+        }
+        .daunrodorinku{
+            width: 470px;
+            margin: 0 auto;
+            padding-top: 60px;
+            a{
+                padding: 0 25px;
+                img{
+                    height: 58px;
+                    border-radius: 8.5px;
+                }
+                >img:hover{
+                    box-shadow: #000 5px 5px 5px;
+                }
+            }
+        }
+    }
+    
+}

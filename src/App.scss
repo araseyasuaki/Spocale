@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    @media (width <= 960px){
+        min-width: 360px;
+    }
+    @media (width >= 961px){
+    }
+}
+

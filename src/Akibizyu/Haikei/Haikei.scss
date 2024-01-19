@@ -1,0 +1,98 @@
+@media (width <= 960px){
+    .haikei{
+        overflow: hidden;
+        position: relative;
+        height: 100vh;
+        min-height: 720px;
+        max-height: 880px;
+        #kibizyu{
+            position: absolute;
+            width: 1920px;
+            height: 1080px;
+            top: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -100;
+        }
+        #waku1{
+            position: absolute;
+            top: 65px;
+            width: 100%;
+        }
+        #waku2{
+            position: absolute;
+            bottom: 11%;
+            width: 100%;
+            z-index: -20;
+        }
+        #waku2::after{
+            content: '';
+            position: absolute;
+            background-color: #df0000;
+            width: 100px;
+            height: 100px;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+        }
+        #waku3{
+            position: absolute;
+            bottom: 9.5%;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    .haikei::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 67px;
+        background-color: #fff;
+        left: 0;
+        z-index: 90;
+    }
+}
+@media (width >= 961px){
+    .haikei{
+        overflow: hidden;
+        position: relative;
+        height: 100vh;
+        min-height: 720px;
+        max-height: 880px;
+        #kibizyu{
+            position: absolute;
+            width: 1920px;
+            height: 1080px;
+            top: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -100;
+        }
+        #waku1{
+            position: absolute;
+            top: 15px;
+            width: 100%;
+        }
+        #waku2{
+            position: absolute;
+            bottom: 0%;
+            width: 100%;
+            z-index: -20;
+        }
+        #waku3{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    .haikei::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 16px;
+        background-color: #fff;
+        left: 0;
+        z-index: 90;
+    }
+}
