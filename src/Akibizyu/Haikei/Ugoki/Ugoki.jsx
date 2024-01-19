@@ -1,11 +1,10 @@
 import './Ugoki.scss';
-import Data from '../../../Data/Data';
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import Opugoki from './Opugoki/Opugoki'
+import { ugoki } from '../../../Data/Data';
+import React, { useEffect } from 'react';
+import { gsap } from 'gsap';
+import Opugoki from './Opugoki/Opugoki';
 
 const Ugoki = () => {
-  const { ugoki } = Data();
   // useEffect(()=>{
   //   gsap.set('#sumaho1',{y:'78%',opacity:'0',})
   //   gsap.to('#sumaho1',{y:'0',duration: 0.7,opacity:'1',ease: 'power2.out',},'4')
@@ -58,11 +57,12 @@ const Ugoki = () => {
       {/* <Opugoki/> */}
       <section className="ugoki">
         <ul>
-        {ugoki.map((data, index) => (
-            <li key={index}><img id={data.id} src={data.link} alt={index} /></li>
+          {ugoki.map((data, index) => (
+            <li key={index}>
+              <img id={data.id} src={data.link} alt={index} />
+            </li>
           ))}
         </ul>
-          
       </section>
     </>
   );

@@ -1,10 +1,9 @@
 import './Haikei.scss';
-import Data from '../../Data/Data';
+import {haikei} from '../../Data/Data';
 import Kyatti from './Kyatti/Kyatti';
 import Ugoki from './Ugoki/Ugoki';
 
 const Haikei = () => {
-  const { haikei } = Data();
   return (
     <>
       <section className="haikei">

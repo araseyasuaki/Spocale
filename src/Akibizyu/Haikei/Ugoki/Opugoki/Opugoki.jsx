@@ -1,10 +1,9 @@
 import './Opugoki.scss'
-import Data from '../../../../Data/Data'
+import {supokare} from '../../../../Data/Data'
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 
 function Opugoki() {
-    const { supokare } = Data();
     useEffect(()=>{
         const syoukyobtn = () => {
             const supokare = document.querySelectorAll('.opugoki');
