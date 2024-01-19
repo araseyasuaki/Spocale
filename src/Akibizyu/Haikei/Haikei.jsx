@@ -1,5 +1,5 @@
 import './Haikei.scss';
-import {haikei} from '../../Data/Data';
+import { haikei } from '../../Data/Data';
 import Kyatti from './Kyatti/Kyatti';
 import Ugoki from './Ugoki/Ugoki';
 
