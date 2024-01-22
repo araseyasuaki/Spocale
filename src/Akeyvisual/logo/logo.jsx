@@ -1,4 +1,4 @@
-import './Logo.scss';
+import './logo.scss';
 import { logotext, logoimg } from '../../Zdata/data';
 
 const Logo = () => {
