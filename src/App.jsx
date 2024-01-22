@@ -1,18 +1,21 @@
 import './App.scss';
-import Akibizyu from './Akibizyu/Akibizyu';
-import Bdounyuu from './Bdounyuu/Dounyuutext';
-import Cnayami from './Cnayami/Nayami';
-import Dkinou from './Dkinou/kinou';
-import Fkoe from './Fkoe/Fkoe';
+import Akeyvisual from './Akeyvisual//keyvisual'
+import Bintroduction from './Bintroduction/introduction'
+import Cworrise from './Cworries/worries'
+import Dfunction from './Dfunction/function'
+import Emaincontent from './Emaincontent/maincontent'
+import Fuser from './Fuser/user'
+
 
 function App() {
     return(
       <>
-        <Akibizyu/>
-        <Bdounyuu/>
-        {/* <Cnayami/>
-        <Dkinou/> */}
-        {/* <Fkoe/> */}
+        <Akeyvisual/>
+        <Bintroduction/>
+        <Cworrise/>
+        {/* <Dfunction/> */}
+        <Emaincontent/>
+        {/* <Fuser/> */}
       </>
     )
 }

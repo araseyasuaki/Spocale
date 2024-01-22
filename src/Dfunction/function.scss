@@ -1,0 +1,94 @@
+@media (width <= 960px){
+}
+@media (width >= 961px){
+    .function{
+        padding: 170px 0;
+        position: relative;
+        overflow: hidden;
+        ul{
+            list-style-type: none;
+            width: 80%;
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            li{
+                img{
+                    width: 85%;
+                    min-width: 300px;
+                    margin: 0 0 0 8%;
+                }
+                h2{
+                    position: relative;
+                    margin: 0 auto;
+                    font-size: 1.7rem;
+                    color: #fff;
+                }
+                h2:nth-child(1){
+                    width: 272px;
+                }
+                h2:nth-child(2){
+                    width: 300px;
+                }
+                h2:nth-child(1)::before{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 58px;
+                    top: 24%;
+                    left: -17%;
+                    background-color: #fff;
+                    -webkit-clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                            clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                    transform: rotate(-20deg);
+                    z-index: 100;
+                }
+                h2:nth-child(1)::after{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 58px;
+                    top: 24%;
+                    right: -15%;
+                    background-color: #fff;
+                    -webkit-clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                            clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                    transform: rotate(20deg);
+                    z-index: 100;
+                }
+                h3{
+                    padding-top: 35px;
+                    width: 57%;
+                    min-width: 320px;
+                    margin: 0 auto;
+                    font-size: 1.4rem;
+                    color: #fff;
+                }
+            }
+            li:nth-child(1){
+                width: 45%;
+            }
+            li:nth-child(2){
+                width: 55%;
+                margin: auto 0;
+            }
+        }
+        #bgimg-mv{
+            display: none;
+        }
+        #bgimg-pc{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: -100;
+            width: 100%;
+            min-width: 1230px;
+        }
+        #supokaretext{
+            position: absolute;
+            width: 300px;
+            right: -60px;
+            bottom: 110px;
+            transform: rotate(90deg);
+        }
+    }
+}
