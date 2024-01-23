@@ -160,3 +160,22 @@ export const card3 = [
     link2: '/img/userlogo3.png',
   },
 ];
+
+
+
+//G
+export const faqcatch = [
+  {text:'FAQ'},
+]
+export const faqqtext = [
+  {text:'Q：'},
+  {text:' 会員登録は必要ですか？'},
+  {text:'地域リーグや下部リーグの試合日程もありますか？'},
+  {text:'情報の更新頻度はどのぐらいですか'},
+]
+export const faqatext = [
+  {text:'A：'},
+  {text:'いいえ、当アプリの利用には会員登録は必要ありません。アプリをダウンロードしていただければ、すぐにご利用いただけます'},
+  {text:'はい、当アプリでは地域リーグや下部リーグの試合日程も掲載しています。そのほかにも様々なスポーツの試合日程を掲載しています。'},
+  {text:'当アプリの情報は毎日更新しています。'},
+]

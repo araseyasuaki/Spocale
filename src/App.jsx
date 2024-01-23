@@ -5,7 +5,7 @@ import Cworrise from './Cworries/worries'
 import Dfunction from './Dfunction/function'
 import Emaincontent from './Emaincontent/maincontent'
 import Fuser from './Fuser/user'
-
+import Gfaq from './Gfaq/faq'
 
 function App() {
     return(
@@ -13,9 +13,10 @@ function App() {
         <Akeyvisual/>
         <Bintroduction/>
         <Cworrise/>
-        {/* <Dfunction/> */}
+        <Dfunction/>
         <Emaincontent/>
-        {/* <Fuser/> */}
+        <Fuser/>
+        <Gfaq/>
       </>
     )
 }
