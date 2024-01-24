@@ -1,4 +1,84 @@
 @media (width <= 960px){
+    .function{
+        overflow: hidden;
+        position: sticky;
+        top: -30vh;
+        z-index: -200;
+        ul{
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            li{
+                img{
+                    width: 72%;
+                    max-width: 460px
+                }
+                h2{
+                    text-align: center ;
+                    margin: 0;
+                    position: relative;
+                }
+                h2:nth-child(1){
+                    width: 240px;
+                    margin: 0 auto;
+                }
+                h2:nth-child(2){
+                    margin-right: -5px;
+                }
+                h2:nth-child(1)::before{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 58px;
+                    top: 19%;
+                    left: -30px;
+                    background-color: #000;
+                    -webkit-clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                            clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                    transform: rotate(-20deg);
+                    z-index: 100;
+                }
+                h2:nth-child(1)::after{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 58px;
+                    top: 19%;
+                    right: -30px;
+                    background-color: #000;
+                    -webkit-clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                            clip-path: polygon(0 0, 100% 0, 74% 100%, 26% 100%);
+                    transform: rotate(20deg);
+                    z-index: 100;
+                }
+                h3{
+                    font-size: 1rem;
+                    padding: 35px 0;
+                    margin: 0 auto;
+                    width: 65%;
+                    max-width: 400px;
+                }
+            }
+            li:nth-child(1){
+                text-align: center;
+            }
+        }
+        #bgimg-pc{
+            position: absolute;
+            width: 100%;
+            min-width: 850px;
+            top: 71%;
+            transform: translateY(-50%);
+            z-index: -100;
+        }
+        #supokaretext{
+            position: absolute;
+            width: 100%;
+        }
+    }
 }
 @media (width >= 961px){
     .function{
@@ -74,9 +154,6 @@
                 width: 55%;
                 margin: auto 0;
             }
-        }
-        #bgimg-mv{
-            display: none;
         }
         #bgimg-pc{
             position: absolute;

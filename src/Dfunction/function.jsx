@@ -9,20 +9,18 @@ const kinou = () => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set('#bgimg-pc',{
       x: '100%',
-      y: '-50%',
       opacity: '0.5',
     })
     gsap.to('#bgimg-pc',{
       x: '0',
-      y: '-50%',
       opacity: '1',
       duration: '1.5',
       delay: '0',
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '#bgimg-pc',
-        start: '-20% center',
-        end: '-20% center',
+        start: '-40% center',
+        end: '-40% center',
       }
     })
 
@@ -38,8 +36,8 @@ const kinou = () => {
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '#bgimg-pc',
-        start: '-20% center',
-        end: '-20% center',
+        start: '-40% center',
+        end: '-40% center',
       }
     })
 
@@ -56,8 +54,8 @@ const kinou = () => {
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '#bgimg-pc',
-        start: '-20% center',
-        end: '-20% center',
+        start: '-40% center',
+        end: '-40% center',
       }
     })
   })

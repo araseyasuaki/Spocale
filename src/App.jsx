@@ -15,8 +15,8 @@ function App() {
         <Akeyvisual/>
         <Bintroduction/>
         <Cworrise/>
-        {/* <Dfunction/> */}
-        {/* <Emaincontent/> */}
+        <Dfunction/>
+        <Emaincontent/>
         {/* <Fuser/> */}
         {/* <Gfaq/> */}
         {/* <Hfooter/> */}

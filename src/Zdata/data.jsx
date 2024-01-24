@@ -93,7 +93,6 @@ export const functiontext = [
   { text: '試合情報・放送配信情報・チケット販売情報の掲載、MYカレンダーやリマインド通知などの便利機能多数。' },
 ];
 export const functionbackground = [
-  { id: 'bgimg-mv', link: '/img/bgimg-mv.png' },
   { id: 'bgimg-pc', link: '/img/bgimg-pc.png' },
   { id: 'supokaretext', link: '/img/supokaretext.png' },
 ];
