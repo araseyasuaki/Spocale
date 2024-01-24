@@ -19,7 +19,7 @@ function App() {
         <Emaincontent/>
         <Fuser/>
         <Gfaq/>
-        {/* <Hfooter/> */}
+        <Hfooter/>
         {/* <Idlbtn/> */}
       </>
     )

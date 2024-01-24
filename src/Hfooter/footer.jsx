@@ -14,11 +14,11 @@ const footer = () => {
         </section>
         <div>
           <ul>
-            <li className='listnone'><a href={footeroverview[0].url}>{footeroverview[0].text}</a></li>
+            <li className='listnone1'><a href={footeroverview[0].url}>{footeroverview[0].text}</a></li>
             <li><a href={footeroverview[1].url}>{footeroverview[1].text}</a></li>
           </ul>
           <ul>
-            <li><a href={footeroverview[2].url}>{footeroverview[2].text}</a></li>
+            <li className='listnone2'><a href={footeroverview[2].url}>{footeroverview[2].text}</a></li>
             <li><a href={footeroverview[3].url}>{footeroverview[3].text}</a></li>
           </ul>
         </div>
