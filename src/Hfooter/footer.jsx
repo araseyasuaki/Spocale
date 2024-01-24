@@ -1,12 +1,12 @@
 import './footer.scss'
-import { footerlogo, footerdownloadbtn, footeroverview, supokaresns, footercopyright } from '../Zdata/data'
+import { footerlogo, footerdownloadbtn, footeroverview, supokaresns, footercopyright, topbtn } from '../Zdata/data'
 import React from 'react'
 
 const footer = () => {
   return (
     <>
       <section className='footer'>
-        <img id={footerlogo[0].id} src={footerlogo[0].link}/>
+        <a href=''><img id={footerlogo[0].id} src={footerlogo[0].link}/></a>
         <section className='footerdownloadbtn'>
           {footerdownloadbtn.map((data, index)=>(
             <a href={data.url} key={index}><img id={data.id} src={data.link}/></a>
@@ -28,6 +28,7 @@ const footer = () => {
           ))}
         </section>
         <p>{footercopyright[0].text}</p>
+        <a href=''><img id={topbtn[0].id} src={topbtn[0].link}/></a>
       </section>
     </>
   )

@@ -11,88 +11,122 @@ import { useEffect } from 'react';
 export default function App() {
   useEffect(()=>{
     gsap.registerPlugin(ScrollTrigger);
-    gsap.set('.userh2',{
-      y: '60px',
-      opacity: '0',
-    })
-    gsap.to('.userh2',{
-      y: '0',
-      opacity: '1',
-      duration: '2',
-      delay: '0',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '.userh2',
-        start: '-50% center',
-        end: '-50% center',
-        markers: true,
-      }
-    })
-
-    gsap.set('.pcard1',{
-      y: '60px',
-      opacity: '0',
-      rotationY: '90',
-    })
-    gsap.to('.pcard1',{
-      y: '0',
-      opacity: '1',
-      duration: '2',
-      delay: '0.3',
-      rotationY: '360',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '.userh2',
-        start: '-50% center',
-        end: '-50% center',
-        markers: true,
-      }
-    })
-
-    gsap.set('.pcard2',{
-      y: '60px',
-      opacity: '0',
-      rotationY: '90',
-    })
-    gsap.to('.pcard2',{
-      y: '0',
-      opacity: '1',
-      duration: '2',
-      delay: '0.6',
-      rotationY: '360',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '.userh2',
-        start: '-50% center',
-        end: '-50% center',
-        markers: true,
-      }
-    })
-
-    gsap.set('.pcard3',{
-      y: '60px',
-      opacity: '0',
-      rotationY: '90',
-    })
-    gsap.to('.pcard3',{
-      y: '0',
-      opacity: '1',
-      duration: '2',
-      delay: '0.9',
-      rotationY: '360',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '.userh2',
-        start: '-50% center',
-        end: '-50% center',
-        markers: true,
-      }
-    })
+    
+    if (window.innerWidth >= 961) {
+      gsap.set('.userh22',{
+        y: '60px',
+        opacity: '0',
+      })
+      gsap.to('.userh22',{
+        y: '0',
+        opacity: '1',
+        duration: '2',
+        delay: '0',
+        ease: 'Power4.easeOut',
+        scrollTrigger:{
+          trigger: '.userh22',
+          start: '-50% center',
+          end: '-50% center',
+        }
+      })
+      gsap.set('.pcard1',{
+        y: '60px',
+        opacity: '0',
+        rotationY: '90',
+      })
+      gsap.to('.pcard1',{
+        y: '0',
+        opacity: '1',
+        duration: '2',
+        delay: '0.3',
+        rotationY: '360',
+        ease: 'Power4.easeOut',
+        scrollTrigger:{
+          trigger: '.userh22',
+          start: '-50% center',
+          end: '-50% center',
+        }
+      })
+  
+      gsap.set('.pcard2',{
+        y: '60px',
+        opacity: '0',
+        rotationY: '90',
+      })
+      gsap.to('.pcard2',{
+        y: '0',
+        opacity: '1',
+        duration: '2',
+        delay: '0.6',
+        rotationY: '360',
+        ease: 'Power4.easeOut',
+        scrollTrigger:{
+          trigger: '.userh22',
+          start: '-50% center',
+          end: '-50% center',
+        }
+      })
+  
+      gsap.set('.pcard3',{
+        y: '60px',
+        opacity: '0',
+        rotationY: '90',
+      })
+      gsap.to('.pcard3',{
+        y: '0',
+        opacity: '1',
+        duration: '2',
+        delay: '0.9',
+        rotationY: '360',
+        ease: 'Power4.easeOut',
+        scrollTrigger:{
+          trigger: '.userh22',
+          start: '-50% center',
+          end: '-50% center',
+        }
+      })
+    }else{
+      gsap.set('.userh21',{
+        y: '60px',
+        opacity: '0',
+      })
+      gsap.to('.userh21',{
+        y: '0',
+        opacity: '1',
+        duration: '2',
+        delay: '0',
+        ease: 'Power4.easeOut',
+        scrollTrigger:{
+          trigger: '.userh21',
+          start: '-50% center',
+          end: '-50% center',
+        }
+      })
+      gsap.set('.userpanel-mv',{
+        y: '60px',
+        opacity: '0',
+        rotationY: '90',
+      })
+      gsap.to('.userpanel-mv',{
+        y: '0',
+        opacity: '1',
+        duration: '2',
+        delay: '0.3',
+        rotationY: '360',
+        ease: 'Power4.easeOut',
+        scrollTrigger:{
+          trigger: '.userh21',
+          start: '-50% center',
+          end: '-50% center',
+        }
+      })
+    }
+    
   })
   return (
     <>
     <div className='mvuserbg'>
-    <h2 className='userh2'>{usercatch[0].text}</h2>
+    <h2 className='userh21'>{usercatch[0].text}</h2>
     <section className='userpanel-mv'>
         <Swiper
           effect={'cards'}
@@ -141,7 +175,7 @@ export default function App() {
     </div>
 
       <section className='userpanel-pc'>
-        <h2 className='userh2'>{usercatch[0].text}</h2>
+        <h2 className='userh22'>{usercatch[0].text}</h2>
             <section className='paneru2'>
               <ul className='pcard1'>
                 {card1.map((data, index)=>(

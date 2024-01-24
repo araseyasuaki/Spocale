@@ -1,4 +1,8 @@
 @media (width <= 960px){
+    .dlbtn,
+    .bcscreen{
+        display: none;
+    }
 }
 @media (width >= 961px){
     .dlbtn{

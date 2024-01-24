@@ -5,61 +5,100 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useEffect } from 'react';
 
 const kinou = () => {
-  useEffect(()=>{
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.set('#bgimg-pc',{
+    gsap.set('#bgimg-pc', {
       x: '100%',
       opacity: '0.5',
-    })
-    gsap.to('#bgimg-pc',{
-      x: '0',
-      y: '-50%',
-      opacity: '1',
-      duration: '1.5',
-      delay: '0',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '#bgimg-pc',
-        start: '-40% center',
-        end: '-40% center',
-      }
-    })
-
-    gsap.set('.function ul',{
+    });
+    gsap.set('.function ul', {
       y: '100px',
       opacity: '0',
-    })
-    gsap.to('.function ul',{
-      y: '0',
-      opacity: '1',
-      duration: '2.5',
-      delay: '0.5',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '#bgimg-pc',
-        start: '-40% center',
-        end: '-40% center',
-      }
-    })
-
-    gsap.set('#supokaretext',{
+    });
+    gsap.set('#supokaretext', {
       y: '100px',
       opacity: '0',
-    })
-    gsap.to('#supokaretext',{
-      y: '0',
-      opacity: '1',
-      duration: '2.5',
-      delay: '0.5',
-      rotationY: '360',
-      ease: 'Power4.easeOut',
-      scrollTrigger:{
-        trigger: '#bgimg-pc',
-        start: '-40% center',
-        end: '-40% center',
-      }
-    })
-  })
+    });
+    if (window.innerWidth >= 961) {
+      gsap.to('#bgimg-pc', {
+        x: '0',
+        y: '-50%',
+        opacity: '1',
+        duration: '1.5',
+        delay: '0',
+        ease: 'Power4.easeOut',
+        scrollTrigger: {
+          trigger: '#bgimg-pc',
+          start: '-30% center',
+          end: '-30% center',
+        },
+      });
+      gsap.to('.function ul', {
+        y: '0',
+        opacity: '1',
+        duration: '2.5',
+        delay: '0.5',
+        ease: 'Power4.easeOut',
+        scrollTrigger: {
+          trigger: '#bgimg-pc',
+          start: '-30% center',
+          end: '-30% center',
+        },
+      });
+      gsap.to('#supokaretext', {
+        y: '0',
+        opacity: '1',
+        duration: '2.5',
+        delay: '0.5',
+        rotationY: '360',
+        ease: 'Power4.easeOut',
+        scrollTrigger: {
+          trigger: '#bgimg-pc',
+          start: '-30% center',
+          end: '-30% center',
+        },
+      });
+    }else{
+      gsap.to('#bgimg-pc', {
+        x: '0',
+        y: '-50%',
+        opacity: '1',
+        duration: '1.5',
+        delay: '0',
+        ease: 'Power4.easeOut',
+        scrollTrigger: {
+          trigger: '#bgimg-pc',
+          start: '-150% center',
+          end: '-150% center',
+        },
+      });
+      gsap.to('.function ul', {
+        y: '0',
+        opacity: '1',
+        duration: '2.5',
+        delay: '0.5',
+        ease: 'Power4.easeOut',
+        scrollTrigger: {
+          trigger: '#bgimg-pc',
+          start: '-150% center',
+          end: '-150% center',
+        },
+      });
+      gsap.to('#supokaretext', {
+        y: '0',
+        opacity: '1',
+        duration: '2.5',
+        delay: '0.5',
+        rotationY: '360',
+        ease: 'Power4.easeOut',
+        scrollTrigger: {
+          trigger: '#bgimg-pc',
+          start: '-150% center',
+          end: '-150% center',
+        },
+      });
+    }
+  }, []);
   return (
     <>
       <section className="function">

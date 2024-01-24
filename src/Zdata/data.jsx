@@ -242,3 +242,6 @@ export const dltext = [
 export const dlbcdelete = [
   {text:'空白部分を押して閉じる'},
 ]
+export const topbtn = [
+  {id:'topbtn', link:'/img/topbtn.png'}
+]

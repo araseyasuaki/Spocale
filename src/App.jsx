@@ -20,7 +20,7 @@ function App() {
         <Fuser/>
         <Gfaq/>
         <Hfooter/>
-        {/* <Idlbtn/> */}
+        <Idlbtn/>
       </>
     )
 }

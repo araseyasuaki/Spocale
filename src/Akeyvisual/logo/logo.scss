@@ -1,5 +1,9 @@
 @media (width <= 960px){
     .logo{
+        a{
+            text-decoration: none;
+            color: black;
+        }
         position: fixed;
         z-index: 100;
         width: 150px;
@@ -17,6 +21,10 @@
 }
 @media (width >= 961px){
     .logo{
+        a{
+            text-decoration: none;
+            color: black;
+        }
         position: fixed;
         z-index: 100;
         width: 200px;
