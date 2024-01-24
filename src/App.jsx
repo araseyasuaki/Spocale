@@ -14,7 +14,7 @@ function App() {
       <>
         <Akeyvisual/>
         <Bintroduction/>
-        {/* <Cworrise/> */}
+        <Cworrise/>
         {/* <Dfunction/> */}
         {/* <Emaincontent/> */}
         {/* <Fuser/> */}
