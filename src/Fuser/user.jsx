@@ -91,7 +91,9 @@ export default function App() {
   })
   return (
     <>
-      <section className='userpanel-mv'>
+    <div className='mvuserbg'>
+    <h2 className='userh2'>{usercatch[0].text}</h2>
+    <section className='userpanel-mv'>
         <Swiper
           effect={'cards'}
           grabCursor={true}
@@ -136,6 +138,7 @@ export default function App() {
           </SwiperSlide>
         </Swiper>
       </section>
+    </div>
 
       <section className='userpanel-pc'>
         <h2 className='userh2'>{usercatch[0].text}</h2>

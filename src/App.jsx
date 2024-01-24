@@ -17,8 +17,8 @@ function App() {
         <Cworrise/>
         <Dfunction/>
         <Emaincontent/>
-        {/* <Fuser/> */}
-        {/* <Gfaq/> */}
+        <Fuser/>
+        <Gfaq/>
         {/* <Hfooter/> */}
         {/* <Idlbtn/> */}
       </>

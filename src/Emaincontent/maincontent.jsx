@@ -26,7 +26,7 @@ const main = () => {
       };
     }else{
       const rellaxh3 = new Rellax('.mvsection', {
-        speed: 2,
+        speed: 1,
         center: true,
       });
       return () => {
