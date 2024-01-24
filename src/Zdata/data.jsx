@@ -100,9 +100,16 @@ export const functionbackground = [
 
 
 //E
-export const maintext = [
-  {text:'感動を見逃さない ．．'},
-  {text:'スポカレに３つのポイント'},
+export const maintextfirst = [
+  { text: '感' },{ text: '動' },{ text: 'を' },
+  { text: '見' },{ text: '逃' },{ text: 'さ' },
+  { text: 'い' },
+]
+export const maintextlast = [
+  { text: 'ス' },{ text: 'ポ' },{ text: 'カ' },
+  { text: 'レ' },{ text: 'の' },{ text: '３' },
+  { text: 'つ' },{ text: 'の' },{ text: 'ポ' },
+  { text: 'イ' },{ text: 'ン' },{ text: 'ト' },
 ]
 export const mainbackground = [
   {id:'mainmvimg1', link:'/img/mvimg1.png'},
@@ -178,4 +185,61 @@ export const faqatext = [
   {text:'いいえ、当アプリの利用には会員登録は必要ありません。アプリをダウンロードしていただければ、すぐにご利用いただけます'},
   {text:'はい、当アプリでは地域リーグや下部リーグの試合日程も掲載しています。そのほかにも様々なスポーツの試合日程を掲載しています。'},
   {text:'当アプリの情報は毎日更新しています。'},
+]
+
+
+//H
+export const footerlogo = [
+  {id:'footerlogo',link:'/img/logo.png'},
+]
+export const footeroverview = [
+  {text:'利用規約', url:'https://spocale.com/terms'},
+  {text:'プライバシーポリシー', url:'https://spocale.com/privacy'},
+  {text:'運営会社', url:'https://corp.spocale.com/'},
+  {text:'お問い合わせ', url:'https://corp.spocale.com/contact/'},
+]
+export const footerdownloadbtn = [
+  {
+    id: 'downloadbutton-app',
+    link: '/img/downloadbutton-app.png',
+    url: 'https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9D%E3%82%AB%E3%83%AC/id1337649882',
+  },
+  {
+    id: 'downloadbutton-google',
+    link: '/img/downloadbutton-google.png',
+    url: 'https://play.google.com/store/apps/details?id=com.spocale.android',
+  },
+]
+export const supokaresns = [
+  {
+    id: 'logof',
+    link: '/img/logof.png',
+    url: 'https://www.facebook.com/spocale/',
+  },
+  {
+    id: 'logox',
+    link: '/img/logox.png',
+    url: 'https://twitter.com/intent/user?screen_name=spocale_jp',
+  },
+]
+export const footercopyright = [
+  {text:'COPYRIGHT © SPOCALE ALL RIGHTS RESERVED',},
+]
+
+
+//I
+export const dldata = [
+  {id:'dllogo', link:'/img/qrlogo.png'},
+  {text:'クリック'}
+]
+export const dlbc = [
+  {id:'dlbcapp', link:'/img/barcode-app.png'},
+  {id:'dlbcgoogle', link:'/img/barcode-google.png'},
+]
+export const dltext = [
+  {text:'App'},
+  {text:'Google'},
+]
+export const dlbcdelete = [
+  {text:'空白部分を押して閉じる'},
 ]

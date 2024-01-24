@@ -1,0 +1,107 @@
+@media (width <= 960px){
+}
+@media (width >= 961px){
+    .dlbtn{
+        position: fixed;
+        bottom: 50px;
+        right: 65px;
+        z-index: 100;
+        div{
+            cursor: pointer;
+            position: relative;
+            background-color: #FF9900;
+            border-radius: 10%;
+            width: 75px;
+            height: 75px;
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 50px;
+                padding: 20px;
+            }
+        }
+        p{
+            text-align: center;
+            margin: 0;
+            font-weight: bold;
+            color: #000;
+            padding-top: 7px;
+            font-size: 0.9rem;
+        }
+    }
+    .dlbtn:hover{
+        div{
+            background-color: #ffba53;
+        }
+        p{
+            color: #c6c6c6;
+        }
+    }
+    .bcscreen{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 200;
+        top: 0;
+        left: 0;
+        .bcbox{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            .dlbarcode{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                list-style-type: none;
+                justify-content: center;
+                li{
+                width: 25%;
+                padding: 0 50px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .dltext{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                list-style-type: none;
+                justify-content: center;
+                li{
+                    text-align: center;
+                    font-size: 1.4rem;
+                    width: 25%;
+                    padding: 0 50px;
+                    color: #fff;
+                }
+            }
+        }
+        p{
+            color: #fff;
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+        .dlbackground{
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.8;
+            z-index: -10;
+        }
+    }
+}
+
+#bcdelete{
+    display: none;
+}

@@ -2,8 +2,8 @@
 }
 @media (width >= 961px){
     .maincontent{
-        position: relative;
-        div{
+        margin-top: 40vh;
+        >div{
             z-index: -100;
             position: sticky;
             top: 0;
@@ -22,7 +22,7 @@
         ul{
             width: 77%;
             margin: 0 auto;
-            padding: 120px 0;
+            padding: 150px 0; 
             display: flex;
             list-style-type: none;
             li{
@@ -51,6 +51,7 @@
                     background-color: #bf0000;
                 }
                 h3{
+                    font-weight: 100;
                     width: 70%;
                     font-size: 1.4rem;
                     padding: 50px;
@@ -62,6 +63,7 @@
         .mainsection3{
             li:nth-child(1){
                 width: 55%;
+                margin-top: -120px;
             }
             li:nth-child(2){
                 margin: auto 0;
@@ -83,8 +85,12 @@
                 }
             }
             li:nth-child(2){
+                margin-top: -120px;
                 width: 55%;
             }
+        }
+        .mainsection3{
+            padding-bottom: 150vh;
         }
     }
 }

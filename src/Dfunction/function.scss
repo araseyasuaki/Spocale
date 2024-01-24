@@ -3,9 +3,12 @@
 @media (width >= 961px){
     .function{
         padding: 170px 0;
-        position: relative;
+        position: sticky;
+        top: -60vh;
         overflow: hidden;
+        z-index: -200;
         ul{
+            position: relative;
             list-style-type: none;
             width: 80%;
             margin: 0 auto;

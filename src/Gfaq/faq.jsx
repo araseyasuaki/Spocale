@@ -17,6 +17,7 @@ const faq = () => {
   } 
   return (
     <>
+    <section className='faqbackground'>
       <section className='faq'>
         <h2>{faqcatch[0].text}</h2>
 
@@ -24,10 +25,10 @@ const faq = () => {
           <li>
             <p>{faqqtext[0].text}</p>
             <h3>{faqqtext[1].text}</h3>
-            <div className='btnlefttable' id={`${faq1 ? '' : 'btnleftback'}`}></div>
-            <div className='btnrighttable' id={`${faq1 ? '' : 'btnrightback'}`}></div>
+            <div className='btnlefttable' id={`${faq1 ? 'btnleftback' : ''}`}></div>
+            <div className='btnrighttable' id={`${faq1 ? 'btnrightback' : ''}`}></div>
           </li>
-          <li id={`${faq1 ? 'faqtable1' : ''}`}>
+          <li id={`${faq1 ? '' : 'faqtable1'}`}>
             <p>{faqatext[0].text}</p>
             <h3>{faqatext[1].text}</h3>
           </li>
@@ -37,10 +38,10 @@ const faq = () => {
           <li>
             <p>{faqqtext[0].text}</p>
             <h3>{faqqtext[2].text}</h3>
-            <div className='btnlefttable' id={`${faq2 ? '' : 'btnleftback'}`}></div>
-            <div className='btnrighttable' id={`${faq2 ? '' : 'btnrightback'}`}></div>
+            <div className='btnlefttable' id={`${faq2 ? 'btnleftback' : ''}`}></div>
+            <div className='btnrighttable' id={`${faq2 ? 'btnrightback' : ''}`}></div>
           </li>
-          <li id={`${faq2 ? 'faqtable2' : ''}`}>
+          <li id={`${faq2 ? '' : 'faqtable2'}`}>
             <p>{faqatext[0].text}</p>
             <h3>{faqatext[2].text}</h3>
           </li>
@@ -50,16 +51,17 @@ const faq = () => {
           <li>
             <p>{faqqtext[0].text}</p>
             <h3>{faqqtext[3].text}</h3>
-            <div className='btnlefttable' id={`${faq3 ? '' : 'btnleftback'}`}></div>
-            <div className='btnrighttable' id={`${faq3 ? '' : 'btnrightback'}`}></div>
+            <div className='btnlefttable' id={`${faq3 ? 'btnleftback' : ''}`}></div>
+            <div className='btnrighttable' id={`${faq3 ? 'btnrightback' : ''}`}></div>
           </li>
-          <li id={`${faq3 ? 'faqtable3' : ''}`}>
+          <li id={`${faq3 ? '' : 'faqtable3'}`}>
             <p>{faqatext[0].text}</p>
             <h3>{faqatext[3].text}</h3>
           </li>
         </ul>
 
       </section>
+    </section>
     </>
   )
 }

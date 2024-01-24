@@ -6,6 +6,8 @@ import Dfunction from './Dfunction/function'
 import Emaincontent from './Emaincontent/maincontent'
 import Fuser from './Fuser/user'
 import Gfaq from './Gfaq/faq'
+import Hfooter from './Hfooter/footer'
+import Idlbtn from './Idlbtn/dlbtn'
 
 function App() {
     return(
@@ -17,6 +19,8 @@ function App() {
         <Emaincontent/>
         <Fuser/>
         <Gfaq/>
+        <Hfooter/>
+        <Idlbtn/>
       </>
     )
 }
