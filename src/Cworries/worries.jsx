@@ -6,76 +6,76 @@ import { useEffect } from 'react';
 
 
 const Nayami = () => {
-  // useEffect(()=>{
-  //   gsap.registerPlugin(ScrollTrigger);
-  //   gsap.set('.worries h2',{
-  //     y: '60px',
-  //     opacity: '0',
-  //   })
-  //   gsap.to('.worries h2',{
-  //     y: '0',
-  //     opacity: '1',
-  //     duration: '2',
-  //     delay: '0',
-  //     ease: 'Power4.easeOut',
-  //     scrollTrigger:{
-  //       trigger: '.worries h2',
-  //       start: '-100% center',
-  //       end: '-100% center',
-  //     }
-  //   })
+  useEffect(()=>{
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set('.worries h2',{
+      y: '60px',
+      opacity: '0',
+    })
+    gsap.to('.worries h2',{
+      y: '0',
+      opacity: '1',
+      duration: '2',
+      delay: '0',
+      ease: 'Power4.easeOut',
+      scrollTrigger:{
+        trigger: '.worries h2',
+        start: '-100% center',
+        end: '-100% center',
+      }
+    })
 
-  //   gsap.set('.wtextbox1',{
-  //     y: '60px',
-  //     opacity: '0',
-  //   })
-  //   gsap.to('.wtextbox1',{
-  //     y: '0',
-  //     opacity: '1',
-  //     duration: '2',
-  //     delay: '0.3',
-  //     ease: 'Power4.easeOut',
-  //     scrollTrigger:{
-  //       trigger: '.worries h2',
-  //       start: '-100% center',
-  //       end: '-100% center',
-  //     }
-  //   })
+    gsap.set('.wtextbox1',{
+      y: '60px',
+      opacity: '0',
+    })
+    gsap.to('.wtextbox1',{
+      y: '0',
+      opacity: '1',
+      duration: '2',
+      delay: '0.3',
+      ease: 'Power4.easeOut',
+      scrollTrigger:{
+        trigger: '.worries h2',
+        start: '-100% center',
+        end: '-100% center',
+      }
+    })
 
-  //   gsap.set('.wtextbox2',{
-  //     y: '60px',
-  //     opacity: '0',
-  //   })
-  //   gsap.to('.wtextbox2',{
-  //     y: '0',
-  //     opacity: '1',
-  //     duration: '2',
-  //     delay: '0.6',
-  //     ease: 'Power4.easeOut',
-  //     scrollTrigger:{
-  //       trigger: '.worries h2',
-  //       start: '-100% center',
-  //       end: '-100% center',
-  //     }
-  //   })
+    gsap.set('.wtextbox2',{
+      y: '60px',
+      opacity: '0',
+    })
+    gsap.to('.wtextbox2',{
+      y: '0',
+      opacity: '1',
+      duration: '2',
+      delay: '0.6',
+      ease: 'Power4.easeOut',
+      scrollTrigger:{
+        trigger: '.worries h2',
+        start: '-100% center',
+        end: '-100% center',
+      }
+    })
 
-  //   gsap.set('.wtextbox3',{
-  //     y: '60px',
-  //     opacity: '0',
-  //   })
-  //   gsap.to('.wtextbox3',{
-  //     y: '0',
-  //     opacity: '1',
-  //     duration: '2',
-  //     delay: '0.9',
-  //     ease: 'Power4.easeOut',
-  //     scrollTrigger:{
-  //       trigger: '.worries h2',
-  //       start: '-100% center',
-  //       end: '-100% center',
-  //     }
-  //   })
-  // })
+    gsap.set('.wtextbox3',{
+      y: '60px',
+      opacity: '0',
+    })
+    gsap.to('.wtextbox3',{
+      y: '0',
+      opacity: '1',
+      duration: '2',
+      delay: '0.9',
+      ease: 'Power4.easeOut',
+      scrollTrigger:{
+        trigger: '.worries h2',
+        start: '-100% center',
+        end: '-100% center',
+      }
+    })
+  })
   return (
     <>
       <section className="worries">
