@@ -13,6 +13,7 @@ const kinou = () => {
     })
     gsap.to('#bgimg-pc',{
       x: '0',
+      y: '-50%',
       opacity: '1',
       duration: '1.5',
       delay: '0',
