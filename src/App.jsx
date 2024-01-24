@@ -14,13 +14,13 @@ function App() {
       <>
         <Akeyvisual/>
         <Bintroduction/>
-        <Cworrise/>
-        <Dfunction/>
-        <Emaincontent/>
-        <Fuser/>
-        <Gfaq/>
-        <Hfooter/>
-        <Idlbtn/>
+        {/* <Cworrise/> */}
+        {/* <Dfunction/> */}
+        {/* <Emaincontent/> */}
+        {/* <Fuser/> */}
+        {/* <Gfaq/> */}
+        {/* <Hfooter/> */}
+        {/* <Idlbtn/> */}
       </>
     )
 }

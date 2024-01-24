@@ -21,18 +21,19 @@
             #maskfirst{
                 position: absolute;
                 background-color: #fff;
-                width: 399px;
-                height: 93px;
+                margin-top: 1px;
+                width: 240px;
+                height: 51px;
                 transform-origin: right 50%;
                 margin-left: -8px;
             }
             #masklast{
                 position: absolute;
                 background-color: #fff;
-                width: 437px;
-                height: 91px;
+                width: 260px;
+                height: 51px;
                 transform-origin: 100% 50%;
-                margin-left: -10px;
+                margin: 1px 0 0 -10px;
             }
         }
         .first{
@@ -52,10 +53,10 @@
             }
         }
         .last{
-            margin-top: -18px;
+            margin-top: -9px;
             padding-left: 50px;
             li:nth-child(6){
-                margin-left: -14px;
+                margin-left: -12px;
             }
         }
     }

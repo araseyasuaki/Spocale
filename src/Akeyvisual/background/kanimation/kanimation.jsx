@@ -13,7 +13,7 @@ const Ugoki = () => {
       '4'
     );
 
-    gsap.set('#kimg1', { y: '165%', x: '250%', opacity: '0', scale: '0.3' });
+    gsap.set('#kimg1', { y: '215%', x: '120%', opacity: '0', scale: '0.3' });
     gsap.to(
       '#kimg1',
       {
@@ -27,7 +27,7 @@ const Ugoki = () => {
       '5.1'
     );
 
-    gsap.set('#kimg2', { y: '210%', x: '70%', opacity: '0', scale: '0.3' });
+    gsap.set('#kimg2', { y: '260%', x: '50%', opacity: '0', scale: '0.3' });
     gsap.to(
       '#kimg2',
       {
@@ -41,7 +41,7 @@ const Ugoki = () => {
       '5.7'
     );
 
-    gsap.set('#kimg3', { y: '85%', x: '435%', opacity: '0', scale: '0.3' });
+    gsap.set('#kimg3', { y: '185%', x: '180%', opacity: '0', scale: '0.3' });
     gsap.to(
       '#kimg3',
       {
