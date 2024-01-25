@@ -20,8 +20,8 @@ const Nayami = () => {
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '.worries h2',
-        start: '-100% center',
-        end: '-100% center',
+        start: '-170% center',
+        end: '-170% center',
       }
     })
 
@@ -37,8 +37,8 @@ const Nayami = () => {
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '.worries h2',
-        start: '-100% center',
-        end: '-100% center',
+        start: '-170% center',
+        end: '-170% center',
       }
     })
 
@@ -54,8 +54,8 @@ const Nayami = () => {
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '.worries h2',
-        start: '-100% center',
-        end: '-100% center',
+        start: '-170% center',
+        end: '-170% center',
       }
     })
 
@@ -71,8 +71,8 @@ const Nayami = () => {
       ease: 'Power4.easeOut',
       scrollTrigger:{
         trigger: '.worries h2',
-        start: '-100% center',
-        end: '-100% center',
+        start: '-170% center',
+        end: '-170% center',
       }
     })
   })
