@@ -17,6 +17,7 @@
             border-radius: 10%;
             width: 75px;
             height: 75px;
+            margin-top: 20px;
             img{
                 position: absolute;
                 top: 50%;
@@ -35,12 +36,12 @@
             font-size: 0.9rem;
         }
     }
-    .dlbtn:hover{
-        div{
+    .dlbtn{
+        div:nth-child(1):hover{
             background-color: #ffba53;
         }
-        p{
-            color: #c6c6c6;
+        div:nth-child(2):hover{
+            background-color: #ffba53;
         }
     }
     .bcscreen{

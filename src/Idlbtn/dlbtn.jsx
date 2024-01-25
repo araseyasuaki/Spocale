@@ -1,5 +1,5 @@
 import './dlbtn.scss'
-import { dldata, dlbc, dltext, dlbcdelete } from '../Zdata/data'
+import { qtbtn, dlbc, dltext, dlbcdelete } from '../Zdata/data'
 import React, { useState } from 'react'
 
 
@@ -11,13 +11,14 @@ const dlbtn = () => {
   }
   return (
     <>
-      <section onClick={bcbtn} className='dlbtn'>
-        <div>
-          <img id={dldata[0].id} src={dldata[0].link}/>
+      <section className='dlbtn'>
+        <div onClick={bcbtn}>
+          <img id={qtbtn[0].id} src={qtbtn[0].link}/>
         </div>
-        <p>{dldata[1].text}</p>
+        <div>
+          <a href=''><img id={qtbtn[1].id} src={qtbtn[1].link}/></a>
+        </div>
       </section>
-      
       <section id={`${bcde ? '' : 'bcdelete'}`} className='bcscreen'>
         <div className='bcbox'>
           <ul className='dlbarcode'>

@@ -227,9 +227,9 @@ export const footercopyright = [
 
 
 //I
-export const dldata = [
+export const qtbtn = [
   {id:'dllogo', link:'/img/qrlogo.png'},
-  {text:'クリック'}
+  {id:'topbtn', link:'/img/topbtn.png'},
 ]
 export const dlbc = [
   {id:'dlbcapp', link:'/img/barcode-app.png'},
@@ -241,7 +241,4 @@ export const dltext = [
 ]
 export const dlbcdelete = [
   {text:'空白部分を押して閉じる'},
-]
-export const topbtn = [
-  {id:'topbtn', link:'/img/topbtn.png'}
 ]
