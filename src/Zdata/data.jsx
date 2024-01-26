@@ -102,7 +102,7 @@ export const functionbackground = [
 export const maintextfirst = [
   { text: '感' },{ text: '動' },{ text: 'を' },
   { text: '見' },{ text: '逃' },{ text: 'さ' },
-  { text: 'い' },
+  { text: 'な' },{ text: 'い' },
 ]
 export const maintextlast = [
   { text: 'ス' },{ text: 'ポ' },{ text: 'カ' },
