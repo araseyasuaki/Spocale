@@ -68,8 +68,8 @@ const kinou = () => {
         ease: 'Power4.easeOut',
         scrollTrigger: {
           trigger: '#bgimg-pc',
-          start: '-150% center',
-          end: '-150% center',
+          start: '-220% center',
+          end: '-220% center',
         },
       });
       gsap.to('.function ul', {
@@ -80,8 +80,8 @@ const kinou = () => {
         ease: 'Power4.easeOut',
         scrollTrigger: {
           trigger: '#bgimg-pc',
-          start: '-150% center',
-          end: '-150% center',
+          start: '-220% center',
+          end: '-220% center',
         },
       });
       gsap.to('#supokaretext', {
@@ -93,8 +93,8 @@ const kinou = () => {
         ease: 'Power4.easeOut',
         scrollTrigger: {
           trigger: '#bgimg-pc',
-          start: '-150% center',
-          end: '-150% center',
+          start: '-220% center',
+          end: '-220% center',
         },
       });
     }

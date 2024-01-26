@@ -18,7 +18,7 @@ const Dounyuutext = () => {
       ease: 'Power4.easeOut', 
       scrollTrigger:{
         trigger: '.introduction ul',
-        start: '-10% center',
+        start: 'top 90%',
         end: '-10% center',
       }
     })

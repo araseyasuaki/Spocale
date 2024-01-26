@@ -1,6 +1,7 @@
 import './dlbtn.scss'
-import { qtbtn, dlbc, dltext, dlbcdelete } from '../Zdata/data'
-import React, { useState } from 'react'
+import { qtbtn, dlbc, dltext, dlbcdelete, footerdownloadbtn } from '../Zdata/data'
+import React, { useState, useEffect } from 'react'
+import gsap from 'gsap';
 
 
 
@@ -9,6 +10,17 @@ const dlbtn = () => {
   const bcbtn = () =>{
     setbcde(!bcde);
   }
+
+
+  useEffect(() => {
+    gsap.to('.qrbtn', {
+      y: 12,
+      duration: 1,
+      yoyo: true,
+      repeat: -1,
+      ease: 'power1.inOut',
+    });
+  }, []);
   return (
     <>
       <section className='dlbtn'>
@@ -23,6 +35,11 @@ const dlbtn = () => {
         <div className='bcbox'>
           <ul className='dlbarcode'>
             {dlbc.map((data, index)=>(
+              <li key={index}><img id={data.id} src={data.link}/></li>
+            ))}
+          </ul>
+          <ul className='downloadbtn'>
+            {footerdownloadbtn.map((data, index)=>(
               <li key={index}><img id={data.id} src={data.link}/></li>
             ))}
           </ul>

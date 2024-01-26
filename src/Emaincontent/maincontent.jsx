@@ -2,9 +2,8 @@ import './maincontent.scss';
 import React, { useEffect } from 'react';
 import Rellax from 'rellax';
 import Mainbgtext from './mainbgtext/mainbgtext';
-import { mainbackground, mainsection1, mainsection2, mainsection3,} from '../Zdata/data'
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
+import { mainbackground, mainsection1, mainsection2, mainsection3,} from '../Zdata/data';
+
 
 
 const main = () => {
@@ -13,11 +12,11 @@ const main = () => {
   useEffect(() => {
     if (window.innerWidth >= 961) {
       const rellaxh1 = new Rellax('.rellaxh1', {
-        speed: 2,
+        speed: 3,
         center: true,
       });
       const rellaxh2 = new Rellax('.rellaxh2', {
-        speed: 3.5,
+        speed: 7,
         center: true,
       });
       return () => {
@@ -26,7 +25,7 @@ const main = () => {
       };
     }else{
       const rellaxh3 = new Rellax('.mvsection', {
-        speed: 1,
+        speed: 3,
         center: true,
       });
       return () => {
@@ -54,8 +53,8 @@ const main = () => {
         </ul>
         <ul className='mainsection2'>
           <li>
-            <h2 className='rellaxh1'>{mainsection2[1].text}</h2>
-            <h2 className='rellaxh1'>{mainsection2[2].text}</h2>
+            <h2>{mainsection2[1].text}</h2>
+            <h2>{mainsection2[2].text}</h2>
             <h3 className='rellaxh2'>{mainsection2[3].text}</h3>
           </li>
           <li className='mvsection'>

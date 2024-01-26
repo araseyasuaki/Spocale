@@ -1,12 +1,8 @@
 @media (width <= 960px){
-    .qrbtn,
-    .bcscreen{
-        display: none;
-    }
     .dlbtn{
         position: fixed;
-        bottom: 50px;
-        right: 35px;
+        bottom: 30px;
+        right: 20px;
         z-index: 100;
         div{
             cursor: pointer;
@@ -21,9 +17,67 @@
                 top: 50%;
                 left: 50%;
                 transform: translateX(-50%) translateY(-50%);
-                width: 30px;
-                padding: 10px;
+                width: 35px;
+                padding: 7.5px;
             }
+        }
+    }
+    .dlbtn{
+        div:nth-child(1):hover{
+            background-color: #ffba53;
+        }
+        div:nth-child(2):hover{
+            background-color: #ffba53;
+        }
+    }
+    .bcscreen{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 200;
+        top: 0;
+        left: 0;
+        .bcbox{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            .dlbarcode{
+                display: none;
+            }
+            .downloadbtn{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                li{
+                    img{
+                        padding: 20px 0;
+                        width: 170px;
+                    }
+                }
+            }
+            .dltext{
+                display: none;
+            }
+        }
+        p{
+            color: #fff;
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+        .dlbackground{
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.8;
+            z-index: -10;
         }
     }
 }
@@ -49,14 +103,6 @@
                 width: 50px;
                 padding: 20px;
             }
-        }
-        p{
-            text-align: center;
-            margin: 0;
-            font-weight: bold;
-            color: #000;
-            padding-top: 7px;
-            font-size: 0.9rem;
         }
     }
     .dlbtn{
@@ -106,6 +152,9 @@
                     padding: 0 50px;
                     color: #fff;
                 }
+            }
+            .downloadbtn{
+                display: none;
             }
         }
         p{
