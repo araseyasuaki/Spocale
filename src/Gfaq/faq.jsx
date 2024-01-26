@@ -29,7 +29,7 @@ const faq = () => {
             <div className='btnrighttable' id={`${faq1 ? 'btnrightback' : ''}`}></div>
           </li>
           <li id={`${faq1 ? '' : 'faqtable1'}`}>
-            <p>{faqatext[0].text}</p>
+            <p className='acolor'>{faqatext[0].text}</p>
             <h3>{faqatext[1].text}</h3>
           </li>
         </ul>
