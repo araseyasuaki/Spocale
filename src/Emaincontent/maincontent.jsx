@@ -53,8 +53,8 @@ const main = () => {
         </ul>
         <ul className='mainsection2'>
           <li>
-            <h2>{mainsection2[1].text}</h2>
-            <h2>{mainsection2[2].text}</h2>
+            <h2 className='rellaxh1'>{mainsection2[1].text}</h2>
+            <h2 className='rellaxh1'>{mainsection2[2].text}</h2>
             <h3 className='rellaxh2'>{mainsection2[3].text}</h3>
           </li>
           <li className='mvsection'>
