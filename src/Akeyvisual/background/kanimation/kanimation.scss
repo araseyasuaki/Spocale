@@ -19,20 +19,21 @@
                 max-width: 200px;
                 top: 25%;
                 left: 34%;
+                z-index: -10;
             }
             li:nth-child(2){
                 width: 35vw;
                 max-width: 157px;
                 top: 43%;
                 left: 72%;
-                z-index: 10;
+                z-index: -10;
             }
             li:nth-child(3){
                 width: 30vw;
                 max-width: 135px;
                 bottom: 25%;
                 left: 27%;
-                z-index: 200;
+                z-index: -10;
             }
             li:nth-child(4){
                 width: 40vw;
@@ -53,6 +54,8 @@
             padding: 0;
             width: 100vw;
             height: 100vh;
+            min-height: 720px;
+            max-height: 880px;
             list-style-type: none;
             li{
                 position: absolute;
@@ -64,7 +67,7 @@
             li:nth-child(1){
                 width: 18vw;
                 min-width: 280px;
-                top: 30%;
+                top: 37%;
                 left: 34%;
                 z-index: 10;
             }
@@ -77,8 +80,8 @@
             }
             li:nth-child(3){
                 width: 15vw;
-                bottom: 7%;
-                left: 15%;
+                bottom: -5%;
+                left: 14%;
                 z-index: 20;
             }
             li:nth-child(4){

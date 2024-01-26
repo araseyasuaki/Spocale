@@ -39,7 +39,7 @@ export const catchlast = [
 //B
 export const introductiontext = [
   { text: 'スポーツ日程掲載サービス' },
-  { text: 'スポカレでは' },
+  { text: 'スポカレは' },
   { text: '約１００種類のスポーツを' },
   { text: 'プロからアマチュアまで' },
   { text: '年間１.５００大会、５０.０００試合' },

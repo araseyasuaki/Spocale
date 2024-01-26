@@ -1,6 +1,9 @@
 @media (width <= 960px){
     .worries{
         padding-top: 120px;
+        position: sticky;
+        top: -30vh;
+        z-index: -200;
         h2{
             text-align: center;
             margin: 0;
@@ -39,6 +42,9 @@
     .worries{
         padding-top: 120px;
         max-width: 1100px;
+        position: sticky;
+        top: -10vh;
+        z-index: -200;
         h2{
             text-align: center;
             margin: 0;
@@ -79,6 +85,9 @@
 }
 @media (width >= 1121px){
     .worries{
+        position: sticky;
+        top: -10vh;
+        z-index: -200;
         padding-top: 120px;
         h2{
             text-align: center;

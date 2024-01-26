@@ -41,7 +41,7 @@ const Ugoki = () => {
       '5.7'
     );
 
-    gsap.set('#kimg3', { y: '185%', x: '180%', opacity: '0', scale: '0.3' });
+    gsap.set('#kimg3', { y: '85%', x: '180%', opacity: '0', scale: '0.3' });
     gsap.to(
       '#kimg3',
       {

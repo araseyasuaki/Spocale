@@ -14,8 +14,8 @@ function App() {
       <>
         <Akeyvisual/>
         <Bintroduction/>
-        <Cworrise/>
         <Dfunction/>
+        <Cworrise/>
         <Emaincontent/>
         <Fuser/>
         <Gfaq/>

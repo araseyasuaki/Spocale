@@ -1,9 +1,8 @@
 @media (width <= 960px){
     .function{
+        padding-top: 120px;
         overflow: hidden;
-        position: sticky;
-        top: -30vh;
-        z-index: -200;
+        position: relative;
         ul{
             position: relative;
             display: flex;
@@ -69,8 +68,8 @@
         #bgimg-pc{
             position: absolute;
             width: 100%;
-            min-width: 850px;
-            top: 71%;
+            min-width: 650px;
+            top: 77.3%;
             transform: translateY(-50%);
             z-index: -100;
         }
@@ -83,10 +82,8 @@
 @media (width >= 961px){
     .function{
         padding: 170px 0;
-        position: sticky;
-        top: -60vh;
+        position: relative;
         overflow: hidden;
-        z-index: -200;
         ul{
             position: relative;
             list-style-type: none;

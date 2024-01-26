@@ -12,10 +12,10 @@ const dlbtn = () => {
   return (
     <>
       <section className='dlbtn'>
-        <div onClick={bcbtn}>
+        <div className='qrbtn' onClick={bcbtn}>
           <img id={qtbtn[0].id} src={qtbtn[0].link}/>
         </div>
-        <div>
+        <div className='topbtn'>
           <a href=''><img id={qtbtn[1].id} src={qtbtn[1].link}/></a>
         </div>
       </section>
