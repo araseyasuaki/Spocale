@@ -2,14 +2,8 @@ body{
     margin: 0;
     @media (width <= 960px){
         min-width: 360px;
-        body {
-            font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'Arial', sans-serif;
-        }
     }
     @media (width >= 961px){
-        body {
-            font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'Arial', sans-serif;
-        }
     }
 }
 
