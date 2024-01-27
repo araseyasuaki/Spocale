@@ -38,7 +38,7 @@ const dlbtn = () => {
               <li key={index}><img id={data.id} src={data.link}/></li>
             ))}
           </ul>
-          <ul className='downloadbtn'>
+          <ul className='fdownloadbtn'>
             {footerdownloadbtn.map((data, index)=>(
               <li key={index}><a href={data.url}><img id={data.id} src={data.link}/></a></li>
             ))}
