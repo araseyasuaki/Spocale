@@ -12,11 +12,11 @@ const main = () => {
   useEffect(() => {
     if (window.innerWidth >= 961) {
       const rellaxh1 = new Rellax('.rellaxh1', {
-        speed: 3,
+        speed: 4,
         center: true,
       });
       const rellaxh2 = new Rellax('.rellaxh2', {
-        speed: 7,
+        speed: 6,
         center: true,
       });
       return () => {
