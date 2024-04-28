@@ -6,6 +6,6 @@
 * GSAP
 * Swiper
 * Rellax
-* sass
+* scss(sass)
 ---
 今回のサイトはスポカレのLPです。
