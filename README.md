@@ -2,8 +2,7 @@
 * https://supokare.vercel.app/
 ---
 #### 使用技術
-* React
-* GSAP
+* React* GSAP
 * Swiper
 * Rellax
 * scss(sass)
